@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+input {
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin-inline: 5px;
+  height: 2.5rem;
+}
+
+input.error {
+  border: 1px solid #f55;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: #a542d4;
+  color: #fefefe;
+  padding: 0.75rem;
+  text-transform: uppercase;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  min-width: 24rem;
+  border: 1px solid #999;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.w-half {
+  flex-basis: 34%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.w-full {
+  flex-basis: 100%;
+}
+
+.my-1 {
+  margin-block: 1rem;
+}
